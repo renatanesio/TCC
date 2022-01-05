@@ -1,0 +1,3 @@
+"name","type","length","leftDigits","rightDigits"
+"Transport_line","STRING","4","0","0"
+"Transport_Time","INTEGER","2","2","0"

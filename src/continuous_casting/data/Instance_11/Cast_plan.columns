@@ -1,0 +1,5 @@
+"name","type","length","leftDigits","rightDigits"
+"ChargeID","INTEGER","3","3","0"
+"CastID","INTEGER","2","2","0"
+"CC","INTEGER","2","2","0"
+"ChargeRoute","STRING","7","0","0"

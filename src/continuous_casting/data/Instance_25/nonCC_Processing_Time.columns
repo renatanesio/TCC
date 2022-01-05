@@ -1,0 +1,6 @@
+"name","type","length","leftDigits","rightDigits"
+"StageID","INTEGER","1","1","0"
+"ChargeID","INTEGER","3","3","0"
+"MinTime","INTEGER","2","2","0"
+"Standard_Time","INTEGER","2","2","0"
+"MaxTime","INTEGER","2","2","0"

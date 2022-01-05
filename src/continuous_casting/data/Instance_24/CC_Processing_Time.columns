@@ -1,0 +1,6 @@
+"name","type","length","leftDigits","rightDigits"
+"CCID","INTEGER","2","2","0"
+"ChargeID","INTEGER","2","2","0"
+"MinTime","INTEGER","2","2","0"
+"Standard_Time","INTEGER","2","2","0"
+"MaxTime","INTEGER","2","2","0"

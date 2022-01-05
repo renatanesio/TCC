@@ -1,0 +1,3 @@
+"name","type","length","leftDigits","rightDigits"
+"StageID","INTEGER","1","1","0"
+"MachineID","INTEGER","2","2","0"
