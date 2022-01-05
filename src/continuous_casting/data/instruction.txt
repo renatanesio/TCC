@@ -1,0 +1,29 @@
+Table Cast_plan: cast information 
+    Column ChargeID: charge index
+    Column CastID: cast index
+    Column CC: machine index of the predefined continuous caster
+    Column ChargeRoute: stage route of this charge, which is composed of stage index
+Table CC_Processing_Time: processing time on continuous caster
+    Column CCID: machine index of continuous caster
+    Column ChargeID: charge index
+    Column MinTime: minimum processing time
+    Column Standard_Time: standard processing time
+    Column MaxTime: maximum processing time
+Table Earliest_available_time: earliest available time of machine
+    Column MachineID: machine index
+    Column EAT: earliest available time
+Table Machine: machine information
+    Column MachineID: machine index
+    Column StageID: stage index
+Table nonCC_Processing_Time: processing time in non-continuous casting stage
+    Column StageID: stage index
+    Column ChargeID: charge index
+    Column MinTime: minimum processing time
+    Column Standard_Time: standard processing time
+    Column MaxTime: maximum processing time
+Table Stage: stage information
+    Column StageID: stage index
+    Column MachineID: machine index
+Table Transport_Time: transport time
+    Column Transport_line: transport line which is composed of machine index
+    Column Transport_Time: transport time
