@@ -29,6 +29,10 @@ class Simulation:
 
         self.gantt_data = {"Task": [], "Start": [], "Finish": [], "Complete": []}
 
+        self.instance_data = {'num_charges': len(self.charges.cast_plan),
+                              'num_machines': self.machines.num_machines,
+                              'num_stages': self.machines.last_stage}
+
         self.__step_2()
 
     def __step_2(self):
@@ -172,7 +176,7 @@ class Simulation:
 
         self.__objective_functions()
 
-        self.plot_gantt()
+        # self.plot_gantt()
 
         print("End of simulation")
 

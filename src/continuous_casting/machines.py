@@ -24,6 +24,10 @@ class Machines:
         self.allocation = {key: {"Allocation": [], "StartingTime": [], "EndingTime": []} for key in
                            list(range(0, self.__num_machines))}
 
+    @property
+    def num_machines(self):
+        return self.__num_machines
+
     def __init_earliest_available_time(self, instance: Dict):
         """
             Function to initiate dictionary of earliest available time, indexed by machine id
