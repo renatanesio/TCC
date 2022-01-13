@@ -176,7 +176,7 @@ class Simulation:
 
         self.__objective_functions()
 
-        # self.plot_gantt()
+        self.plot_gantt()
 
         print("End of simulation")
 
